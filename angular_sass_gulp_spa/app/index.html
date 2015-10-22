@@ -1,21 +1,30 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ch">
 <head>
     <meta charset="UTF-8">
     <title>paTica后台系统</title>
     <!-- bower:css -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
     <!-- endinject -->
     <!-- inject:css -->
+    <link rel="stylesheet" href="components/common/common.css">
+    <link rel="stylesheet" href="views/login/login.css">
     <!-- endinject -->
 </head>
-<body ng-app="App">
+<body ng-app="app">
     <div ui-view=""></div>
 
     <!-- bower:js -->
+    <script src="angular/angular.js"></script>
+    <script src="angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="jquery/dist/jquery.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
     <!-- endinject -->
     <!-- inject:js -->
     <script src="index.js"></script>
+    <script src="views/login/login.js"></script>
     <!-- endinject -->
 </body>
 </html>
