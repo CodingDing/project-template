@@ -9,9 +9,11 @@
   "author": "ziki",
   "license": "ISC",
   "devDependencies": {
+    "chokidar": "^1.2.0",
     "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
     "gulp-load-plugins": "^0.10.0",
-    "gulp-sass": "^2.0.4",
-    "gulp-plumber": "^1.0.1"
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4"
   }
 }
