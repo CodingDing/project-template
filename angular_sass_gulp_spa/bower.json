@@ -1,0 +1,21 @@
+{
+  "name": "paticaERP2.0_re",
+  "version": "0.0.0",
+  "authors": [
+    "ziki <251123397@qq.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-bootstrap": "~0.14.2",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5"
+  }
+}
