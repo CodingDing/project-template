@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+    <title>demo</title>
+    <script>
+        //设置viewport缩放
+        (function () {
+            var scale = document.documentElement.clientWidth / 640;
+            var meta = document.querySelector('meta[name="viewport"]');
+            var str = ['width=640,initial-scale=', ',maximum-scale=', ',minimum-scale=', ',user-scalable=no'];
+            meta.setAttribute('content', str.join(scale));
+        })();
+    </script>
+    <link rel="stylesheet" href="loading.css"/>
+</head>
+<body>
+<!--内容区域代码-->
+<div></div>
+
+<!--loading状态代码区域-->
+<div class="loading-div">
+    <div class="loading-box">
+        <div class="circle">
+            <div class="inner"></div>
+        </div>
+        <div class="circle">
+            <div class="inner"></div>
+        </div>
+        <div class="circle">
+            <div class="inner"></div>
+        </div>
+        <div class="circle">
+            <div class="inner"></div>
+        </div>
+    </div>
+</div>
+<script src="http://apps.bdimg.com/libs/fastclick/1.0.0/fastclick.min.js"></script>
+</body>
+</html>
