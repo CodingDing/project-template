@@ -1,0 +1,43 @@
+{
+  "name": "vue_demo",
+  "version": "1.0.0",
+  "description": "a project template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/CodingDing/project-template"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "ziki <dingziqi_xtu@sina.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "vue": "^1.0.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-runtime": "^5.8.34",
+    "chokidar": "^1.4.1",
+    "css-loader": "^0.23.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "gulp-webpack": "^1.5.0",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "vinyl-named": "^1.1.0",
+    "vue-hot-reload-api": "^1.2.2",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^7.2.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
